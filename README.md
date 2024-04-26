@@ -24,3 +24,11 @@ Notification System
 Chat System
 Video Call
 Location Sharing
+
+Notes:
+Add as a full package. Main Class and children classes. Use of props for editing.
+
+Future Works:
+AI Logo Generator
+VS Code Extension for Deployment
+Mobile App

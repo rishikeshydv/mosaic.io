@@ -7,7 +7,9 @@ interface InputMosaicProps {
 const TestInputMosaic: React.FC<InputMosaicProps> = ({ value, className }) => {
   
   return (
-    <div className={className}>{value}</div>
+    <div className={className}>{value}
+    </div>
+
   )
 }
 

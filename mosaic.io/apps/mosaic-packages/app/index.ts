@@ -1,2 +1,2 @@
-import TestInputMosaic from "./page";
+import  TestInputMosaic  from '../layouts/TestInput'
 export { TestInputMosaic };

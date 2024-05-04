@@ -1,16 +1,9 @@
-import React from 'react';
-interface InputMosaicProps {
-  value: string; // Required prop
-  className?: string; // Optional prop 
-}
+import React from 'react'
 
-const TestInputMosaic: React.FC<InputMosaicProps> = ({ value, className }) => {
-  
+export default function Home() {
   return (
-    <div className={className}>{value}
+    <div>
+      
     </div>
-
   )
 }
-
-export default TestInputMosaic

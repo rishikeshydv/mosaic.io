@@ -8,12 +8,13 @@ import { Button } from "../components/ui/button"
 import { Label } from "../components/ui/label"
 import { Input } from "../components/ui/input"
 import poppins from "../font/font"
+import React from "react"
 
-export function Payment() {
+export function PaymentLayout() {
   return (
-    <Card className={`${poppins.className} max-w-lg bg-white text-black`}>
+    <Card className={`${poppins.className} bg-white`} style={{width:800,height:500}}>
       <CardHeader className="flex justify-between">
-        <CardTitle>Add New Card</CardTitle>
+        <CardTitle className="">Add New Card</CardTitle>
         <Button className="text-muted-foreground" variant="ghost">
           <PanelBottomCloseIcon className="w-4 h-4" />
         </Button>
@@ -42,7 +43,7 @@ export function Payment() {
         </div>
       </CardContent>
       <CardFooter className="flex justify-between">
-        <Button variant="outline">Add Card</Button>
+        <Button variant="outline">Pay Now</Button>
         <Button variant="outline">Cancel</Button>
       </CardFooter>
     </Card>

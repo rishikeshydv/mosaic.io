@@ -1,8 +1,8 @@
 {
-  "name": "mosaic-packages",
+  "name": "mosaic-packages-joel",
   "version": "0.1.0",
   "homepage": "https://github.com/rishikeshydv/mosaic.io",
-  "main": "dist/index.js",
+  "main": "dist/app/index.js",
   "private": false,
   "scripts": {
     "dev": "next dev -p 3500",

@@ -1,9 +1,9 @@
 import React from 'react'
-import  {Payment}  from '../layouts/Payment'
+import {PaymentLayout} from '../layouts/PaymentLayout'
 export default function Home() {
   return (
-    <div>
-<Payment/>
+    <div className='flex items-center justify-center'>
+<PaymentLayout />
     </div>
       
   )

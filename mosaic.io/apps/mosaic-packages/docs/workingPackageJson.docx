@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "",
   "homepage": "https://github.com/rishikeshydv/mosaic.io",
-  "main": "dist/index.js",
+  "main": "dist/app/index.js",
   "license": "MIT",
   "scripts": {
     "build": "tsc"
